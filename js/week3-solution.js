@@ -80,11 +80,11 @@ New cars gets added to the queue as cars wait to pass the bridge.
 
 Create a number of cars you would like. 
 
-1. Two new cars (of your liking) drives up to the queue. Create a function that can add a car to to the queue and add the two cars to the queue. 
+1. A new car (of your liking) drives up to the queue. Create a function that can add a car to to the queue and add the car to the queue. 
 
-2. Now a car can cross the bridge, therefore create a function to remove a car from the front of the queue and remove the first car. Log out the car color and make.
+2. Now a car can cross the bridge, therefore create a function to remove a car from the front of the queue and remove the first car. Log out the car.
 
-3. Two of the cars in the back choose another queue. Again create a function for removing cars from the list and remove them from the queue.
+3. A car in the back choose another queue. Again create a function for removing a car from the queue and remove the it from the queue.
 
 4. Now log out the number of cars left in the queue. 
 
@@ -204,13 +204,13 @@ const bmwCars = cars.filter(function(car) {
 
 // takes a compare function
 
-/*
+
 const quickestCars = cars.sort(function(a, b) {
     //console.log(a);
     //console.log(b);
     // return a.speed - b.speed;
     
-    if (a.speed > b.speed) {
+    if (b.speed > a.speed) {
         return 1;
     } else {
         return -1;
@@ -218,8 +218,8 @@ const quickestCars = cars.sort(function(a, b) {
 
     return 0;
 });
-*/
-//console.log(quickestCars);
+
+console.log(quickestCars);
 
 
 /*
